@@ -5,7 +5,7 @@ import { Product, ShoppingCartItem, ShoppingCartList } from '../models';
 import useGetObjectFromArrayItemsName from '../hooks/getProductsObject';
 
 const ItemsListWrapper = styled(Box)(() => ({
-  paddingTop: 20,
+  paddingTop: 24,
 }));
 
 type ItemsListProps = {

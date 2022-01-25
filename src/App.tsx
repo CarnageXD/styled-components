@@ -5,7 +5,7 @@ import { grey } from '@mui/material/colors';
 import ShoppingCart from './components/ShoppingCart';
 
 const Background = styled(Box)(() => ({
-  backgroundColor: grey[200],
+  backgroundColor: grey[100],
   paddingTop: 100,
   height: 'calc(100vh-118px)',
 }));
