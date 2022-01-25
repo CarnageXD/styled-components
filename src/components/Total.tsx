@@ -31,6 +31,9 @@ const Total: React.FC<TotalProps> = ({ items, onClick, products }) => {
           <Button onClick={onClick} variant="outlined">
             Clear
           </Button>
+          <Button onClick={onClick} variant="outlined">
+            Clear
+          </Button>
         </Grid>
       </Grid>
     </TotalWrapper>
