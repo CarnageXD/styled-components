@@ -25,7 +25,7 @@ type AddItemFormProps = {
 
 const AddItemForm: React.FC<AddItemFormProps> = ({ onClick, products }) => {
   const [productId, setProductId] = useState<string>('');
-  const [quantity, setQuantity] = useState<number>(0);
+  const [quantity, setQuantity] = useState<number>(1);
 
   const handleQuantityChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setQuantity(+e.target.value);
